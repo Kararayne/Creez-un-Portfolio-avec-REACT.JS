@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
@@ -119,18 +120,19 @@ max-width: 2000px;
   .accueil1{
     display: flex;
     justify-content: center;
-    box-shadow: 0px 9px 20px #8844cc;
+    box-shadow: 0px 9px 20px grey;
     border-radius: 0.5em;
+    width: 75%;
     }
 .sizeAccueil{
    
-    width: 40%;
+    width: 60%;
     padding: 1em;
   } 
 .sizeAccueil1{
       display: flex;
       flex-direction: column;
-      width: 40%;
+      width: 60%;
       padding: 1em;
   
 }
@@ -164,6 +166,13 @@ padding: 0;
   border-bottom: 2px solid blue;
   margin-bottom: 1em;
 }
+.surlign2{
+  border-bottom: 4px solid blue;
+      margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40%;
+    margin-right: 40%;
+}
 .footerparagraph{
   margin: 0;
  }
@@ -189,4 +198,25 @@ padding: 0;
   }
   .contentmodal{
     margin : 1em;
+  }
+  .contact-misenpage{
+    display: flex;
+    justify-content: center;
+  }
+  .size-input{
+    width: 100%;
+    margin-bottom: 0.5em;
+  }
+    .size-textarea{
+    width: 100%;
+    margin-bottom: 1em;
+    height: 25em;
+  }
+  .size-contact{
+    width: 60%;
+    padding: 1em;
+    text-align: left;
+  }
+  .size-adress{
+    margin: 0;
   }
