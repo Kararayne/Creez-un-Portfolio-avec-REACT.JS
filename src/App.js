@@ -1,4 +1,5 @@
 import React from 'react';
+import {useEffect, useState } from 'react';
 import './index.css';
 import { Route, Routes,} from 'react-router-dom';
 import Home from './pages/home.jsx';
@@ -11,6 +12,18 @@ import MentionsLegales from './pages/mentionslegales.jsx';
 
 
 export default function App() {
+
+  const [users, setUsers] = useState([]);
+    
+  const getUsers = async () => {
+      const res = await fetch("https://api.github.com/users/github-john-doe");
+      const json = await res.json();
+      setUsers(json);
+    }
+
+      useEffect(() => {
+    getUsers();
+  }, []);
     return (
 
 
