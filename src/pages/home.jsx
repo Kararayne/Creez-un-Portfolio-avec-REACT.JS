@@ -2,11 +2,13 @@
 import BackGround from '../components/background.js'
 import ProgressBar from '../components/progressionBar.js'
 import Footer from '../components/footer.js'
+import {useEffect, useState } from 'react';
 
 
 
 
 const Home = () => {
+  
     return (
         <main>
         
@@ -16,7 +18,7 @@ const Home = () => {
       
       <div className='sizeAccueil1'>
         <h2 className='surlign'>A propos</h2>
-        <img src="./images/john-doe-about.jpg" alt='homme'></img>
+        <img src="/images/john-doe-about.jpg" alt='homme'></img>
         <div className='loremSize'>
           <p>
             Lorem ipsum dolor sit amert consectetur adipiscing elit. Optio

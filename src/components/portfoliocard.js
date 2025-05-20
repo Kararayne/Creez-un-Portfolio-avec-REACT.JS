@@ -15,8 +15,8 @@ function ServiceCard (props) {
        
         <Button variant="primary">Voir le site</Button>
       </Card.Body>
-      <Card.Footer className="CardColor">{props.CardFooter}
-      </Card.Footer>
+      { props.CardFooter ?   <Card.Footer className="CardColor">{props.CardFooter} 
+      </Card.Footer> : null }
     </Card>
   );
 }

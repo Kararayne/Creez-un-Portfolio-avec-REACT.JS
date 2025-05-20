@@ -177,3 +177,16 @@ padding: 0;
   padding: 0;
   margin: 1em;
  }
+ .modal{
+  display: flex;
+ }
+  .imgmodal{
+    width: 18em;
+    margin: 1em;
+  }
+  .modal-content{
+    width: 40em;
+  }
+  .contentmodal{
+    margin : 1em;
+  }
