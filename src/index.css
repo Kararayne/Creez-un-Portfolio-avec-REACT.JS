@@ -11,3 +11,169 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.defilement {
+  height: 3000px;
+}
+
+.BackGround{
+background-image: url(/images/hero-bg.jpg);
+background-repeat: no-repeat;
+height: 70em;
+}
+.BackGround2{
+  background-image: url(/images/banner.jpg);
+  background-repeat: no-repeat;
+  height: 20em;
+}
+.body-div{
+  text-align: center;
+  color: white;
+  margin-top: 20em;
+
+}
+.body-div-h1{
+  font-size: 5.5em;
+}
+.body-div-h2{
+  font-size: 4em;
+  margin-top: 1em;;
+}
+.pad{
+  padding: 5em;
+  padding-top: 0;
+}
+.resize3{
+  width: 75%;
+  margin-left: 15em;
+  margin-top: 35em;
+}
+.border{
+  border: 1px solid black;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+.surlign {
+  border-bottom: 3px solid blue}
+.size{
+  width: 50%;
+}
+.popup-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+}
+
+.popup-encart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7); /* Noir avec 70% d'opacité */
+}
+
+.popup-contenu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: darkgray;
+  padding: 25px;
+  border-radius: 8px;
+  color: white; /* Texte noir pour être lisible sur blanc */
+  z-index: 1001; /* plus haut que l'encart noir */
+}
+.navbar>.container{
+margin: 0;
+max-width: 2000px;
+}
+.collapse {
+  justify-content: flex-end;
+}
+.body-div{
+  text-align: center;
+  color: white;
+  margin-top: 20em;
+
+}
+.body-div-h1{
+  font-size: 5.5em;
+}
+.body-div-h2{
+  font-size: 4em;
+  margin-top: 1em;;
+}
+.marg{
+  margin-top: 20em;
+}
+.accueil{
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+  }
+  .accueil1{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 9px 20px #8844cc;
+    border-radius: 0.5em;
+    }
+.sizeAccueil{
+   
+    width: 40%;
+    padding: 1em;
+  } 
+.sizeAccueil1{
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      padding: 1em;
+  
+}
+.loremSize{
+
+width: 75%;
+}
+.footerNav{
+  display: flex;
+  flex-direction: column;
+} 
+.footerNavlink{
+padding: 0;
+}
+.footerParagraphcolor{
+  color: white;
+}
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+}
+.accordion{
+  display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+.accordionDiv{
+  width: 75%;
+}
+.surlign{
+  border-bottom: 2px solid blue;
+  margin-bottom: 1em;
+}
+.footerparagraph{
+  margin: 0;
+ }
+.progress{
+  margin-bottom: 1.5em;
+ }
+ .CardText{
+  background-color: lightgray;
+ }
+ .card{
+  padding: 0;
+  margin: 1em;
+ }
