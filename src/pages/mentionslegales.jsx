@@ -7,6 +7,7 @@ const Mention = () => {
         <div>
         <Header/>
         <h1>Mention legales</h1>
+        <div className="surlign2"></div>
         <Accordion/>
         <Footer/>
         </div>

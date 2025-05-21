@@ -29,7 +29,7 @@ function Example() {
         En savoir plus
       </Button>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal className='textalign' data-bs-theme="dark" show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Mon profil Github</Modal.Title>
         </Modal.Header>
@@ -41,27 +41,30 @@ function Example() {
             )) } 
           </div>
           <div className='contentmodal'>
-          <div>
+          <div className='surlign3'>
            {users.map(user => (
             <p>{user.name}</p>
             )) } 
           </div>
-          <div>
+          <div className='surlign3'>
+            <p>blabla</p>
+          </div> 
+          <div className='surlign3'>
              {users.map(user => (
             <p>{user.bio}</p>
             )) }
           </div>
-          <div>
+          <div className='surlign3'>
              {users.map(user => (
             <p>Repositories : {user.public_repos}</p>
             )) }
           </div>
-          <div>
+          <div className='surlign3'>
              {users.map(user => (
             <p>Followers : {user.followers}</p>
             )) }
           </div>
-          <div>
+          <div className='surlign3'>
              {users.map(user => (
             <p>Following : {user.following}</p>
             )) }

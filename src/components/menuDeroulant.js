@@ -6,17 +6,17 @@ function BasicExample() {
       <div className='accordionDiv'>
         <Accordion.Item eventKey="0">
           <Accordion.Header>Editeur du site</Accordion.Header>
-          <Accordion.Body>
+          <Accordion.Body className='textalign'>
             <h3>John Doe</h3>
-            <address>40 rue Laure Diebold</address>{" "}
-            <address>69009 Lyon</address>
-            <a
+            <address className="size-adress">40 rue Laure Diebold</address>{" "}
+            <address className="size-adress">69009 Lyon</address>
+            <a 
               class="none"
               href="mailto:john.doe@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
-              <p class="none"> john.doe@gmail.com </p>
+              <p class="none size-adress"> john.doe@gmail.com </p>
             </a>
             <a
               class="none1"
@@ -30,7 +30,7 @@ function BasicExample() {
         </Accordion.Item>
         <Accordion.Item eventKey="1">
           <Accordion.Header>Hébergeur</Accordion.Header>
-          <Accordion.Body>
+          <Accordion.Body className='textalign'>
             <h2>alwaysdata</h2>
             <address>91 rue du Faubourg Saint-Honoré, 75008 Paris</address>
             <a
@@ -44,7 +44,7 @@ function BasicExample() {
         </Accordion.Item>
         <Accordion.Item eventKey="2">
           <Accordion.Header>Crédits</Accordion.Header>
-          <Accordion.Body>
+          <Accordion.Body className='textalign'>
             <h2>Crédits</h2>
             <div>
               <p>
