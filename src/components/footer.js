@@ -5,7 +5,7 @@ import '../index.css';
 
 function Footer() {
     return (
-        <footer className="bg-dark footer" data-bs-theme="dark">
+        <footer className="textalign bg-dark footer paddingfooter" data-bs-theme="dark">
           <div> 
         <h2 className="footerParagraphcolor">John Doe</h2>
         <address className="footerParagraphcolor footerparagraph">
@@ -18,6 +18,9 @@ function Footer() {
         <a className="footerParagraphcolor" href="mailto:a-houssin@hotmail.fr" target="_blank" rel="noreferrer">
             <p className='footerparagraph'>a-houssin@hotmail.fr</p>
         </a>
+        <img src='/images/icones/github.png' alt='logo github'></img>
+        <img src='/images/icones/twitter.png' alt='logo twitter'></img>
+        <img src='/images/icones/linkedin.png' alt='logo linkedin'></img>
         </div>
 
         <div className="footerNav">
@@ -44,6 +47,30 @@ function Footer() {
         </div>
         <div>
             <h2 className="footerParagraphcolor">Mes dernieres realisations</h2>
+            <Nav.Link className="footerNavlink footerParagraphcolor" as={Link} to="/portfolio">
+            FreshFood
+            </Nav.Link>
+
+            <Nav.Link className="footerNavlink footerParagraphcolor" as={Link} to="/portfolio">
+            Restaurant Akira
+            </Nav.Link>
+
+            <Nav.Link className="footerNavlink footerParagraphcolor" as={Link} to="/portfolio">
+           Espace Bien-être
+            </Nav.Link>
+
+            <Nav.Link className="footerNavlink footerParagraphcolor" as={Link} to="/portfolio">
+            SEO
+            </Nav.Link>
+
+            <Nav.Link className="footerNavlink footerParagraphcolor" as={Link} to="/portfolio">
+            Création d'une API
+            </Nav.Link>
+
+            <Nav.Link className="footerNavlink footerParagraphcolor" as={Link} to="/portfolio">
+            Maquette d'un site
+            </Nav.Link>
+
         </div>
         </footer>
     );
