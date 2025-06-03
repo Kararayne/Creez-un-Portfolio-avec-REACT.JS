@@ -6,7 +6,7 @@ import Modal from 'react-bootstrap/Modal';
 
 
 
-function Example() {
+function Popup() {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -25,7 +25,7 @@ function Example() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <Button variant="danger" onClick={handleShow}>
         En savoir plus
       </Button>
 
@@ -36,37 +36,45 @@ function Example() {
         <Modal.Body className='modal'>
         
           <div>
+            
              {users.map(user => (
             <img className='imgmodal' src={user.avatar_url} alt={`Avatar of ${user.name}`} />
             )) } 
           </div>
           <div className='contentmodal'>
           <div className='surlign3'>
+         
            {users.map(user => (
-            <p>{user.name}</p>
+            <p>
+              <img src='/images/icones/profil.png' alt='icone profil' /> {user.name}
+            </p>
+
             )) } 
           </div>
           <div className='surlign3'>
-            <p>blabla</p>
+            
+              <img src='/images/icones/epingler.png' alt='icone map'></img> 
           </div> 
           <div className='surlign3'>
              {users.map(user => (
-            <p>{user.bio}</p>
+            <p>
+              <img src='/images/icones/carte-de-visite.png' alt='icone carte'></img> {user.bio}</p>
             )) }
           </div>
           <div className='surlign3'>
              {users.map(user => (
-            <p>Repositories : {user.public_repos}</p>
+            <p>
+              <img src='/images/icones/cube.png' alt='icone repositories'></img> Repositories : {user.public_repos}</p>
             )) }
           </div>
           <div className='surlign3'>
              {users.map(user => (
-            <p>Followers : {user.followers}</p>
+            <p> <img src='/images/icones/ami.png' alt='icone follower'></img> Followers : {user.followers}</p>
             )) }
           </div>
           <div className='surlign3'>
              {users.map(user => (
-            <p>Following : {user.following}</p>
+            <p> <img src='/images/icones/ami.png' alt='icone follower'></img> Following : {user.following}</p>
             )) }
           </div>
        </div>
@@ -82,4 +90,4 @@ function Example() {
   );
 }
 
-export default Example;
+export default Popup;

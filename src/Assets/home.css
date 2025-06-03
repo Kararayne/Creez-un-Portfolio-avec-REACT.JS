@@ -1,0 +1,59 @@
+/*modale*/
+.modal {
+    display: flex;
+}
+
+.imgmodal {
+    width: 18em;
+    margin: 1em;
+}
+
+.contentmodal {
+    margin: 1em;
+}
+
+.modal-content {
+    width: 40em;
+}
+
+/*fin modale*/
+.loremSize {
+    font-size: 95%;
+    text-align: left;
+}
+
+.sizeAccueil {
+
+    width: 50%;
+    padding-left: 1em;
+}
+
+
+.BackGround {
+    background-image: url(/images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    height: 70em;
+    background-position: center;
+    background-size: cover;
+}
+
+.body-div {
+    text-align: center;
+    color: white;
+    padding-top: 2em;
+
+}
+
+.body-div-h1 {
+    font-size: 5.5em;
+    margin-top: 5em;
+}
+
+.body-div-h2 {
+    font-size: 4em;
+
+}
+
+.progress {
+    margin-bottom: 1.5em;
+}
