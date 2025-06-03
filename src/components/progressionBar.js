@@ -1,19 +1,19 @@
-import ProgressBar from 'react-bootstrap/ProgressBar';
-import '../index.css';
+import ProgressBar from "react-bootstrap/ProgressBar";
+import "../index.css";
 
-function ContextualExample() {
+function progressionBar() {
   return (
-    <div className='sizeAccueil'>
-      <h2 className='surlign'>Mes compétences</h2>
+    <div className="sizeAccueil textalign col-12 col-sm-12 col-lg-6">
+      <h2 className="surlign">Mes compétences</h2>
 
       <h3>HTML</h3>
-      <ProgressBar className='marginProgressbar' variant="danger" now={90} />
+      <ProgressBar className="marginProgressbar" variant="danger" now={90} />
 
       <h3>CSS</h3>
-      <ProgressBar className='marginProgressbar' variant="info" now={80} />
+      <ProgressBar className="marginProgressbar" variant="info" now={80} />
 
       <h3>JAVASCRIPT</h3>
-      <ProgressBar className='marginProgressbar' variant="warning" now={70} />
+      <ProgressBar className="marginProgressbar" variant="warning" now={70} />
 
       <h3>PHP</h3>
       <ProgressBar variant="success" now={60} />
@@ -24,4 +24,4 @@ function ContextualExample() {
   );
 }
 
-export default ContextualExample;
+export default progressionBar;

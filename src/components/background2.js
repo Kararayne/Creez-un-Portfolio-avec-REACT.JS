@@ -1,17 +1,6 @@
-import '../index.css';
-import Header from './header.js';
+import "../index.css";
 
 function BackGround2() {
-    return (
-        <div className="BackGround2">
-            
-            <Header />
-
-        </div>
-
-        
-
-    )
-
+  return <div className="BackGround2"></div>;
 }
 export default BackGround2;

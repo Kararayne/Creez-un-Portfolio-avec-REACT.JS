@@ -1,0 +1,10 @@
+.accordioncss {
+  width: 75%;
+  margin-bottom: 2em;
+}
+
+.accordion {
+  display: flex;
+  justify-content: center;
+
+}
